@@ -8,7 +8,7 @@ data <- read.table(file="household_power_consumption.txt", sep=";", header=TRUE)
 
 #head(data,1)
 #str(data)
-#data1 <- data[data$Date %in% c("1/2/2007","2/2/2007") ,]
+data1 <- data[data$Date %in% c("1/2/2007","2/2/2007") ,]
 
 #############################
 #Retrieve only numeric data##
